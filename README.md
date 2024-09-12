@@ -1,10 +1,7 @@
 # Animation Curve Modifier
 Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具。该工具支持批量为AnimSequence新增、复制、重命名和删除动画曲线。
 <h2 id="wDfV9">使用演示</h2>
-<video width="900" height="550" controls>
-  <source src="./AnimCurveModifier使用演示.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
+<iframe width="900" height="550" src="https://youtu.be/0l16tB7kUg4?si=bf6Aj0nZ1PGrOSLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2 id="wDfV9">开发环境</h2>
 
@@ -26,6 +23,7 @@ Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具
 <h2 id="Hv9Vr">注意事项</h2>
 + 请将输入法设置成英文后，再在文本框中进行输入。
 + 若使用过程中工具异常，请重启工具后再进行尝试。
++ 若操作完之后动画数据未更新，可以关闭和重新打开动画序列来刷新更改。
 
 <h2 id="MmHz1">如何使用</h2>
 两种方法加载插件：
