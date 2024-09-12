@@ -16,7 +16,7 @@ Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具
 
 
 <h2 id="WjGRD">文件结构</h2>
-工具的源码位于 Plugins / CoreManager 下。
+工具的源码位于 [Plugins / CoreManager](https://github.com/Clairezsh/AnimCurveModifier/tree/main/Plugins/CoreManager) 下。
 
 + CoreManager.cpp - 插件调用的入口文件，用于加载插件，创建菜单栏选项和下拉按钮，打开工具窗口；
 + CoreManagerCommand.cpp - 定义和注册打开窗口的 UI_Command，用于给菜单栏按钮绑定命令；
