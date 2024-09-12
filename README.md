@@ -35,7 +35,7 @@ Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具
 + 直接将整个 UE 工程下载到本地，用 UE 打开 DevProject.uproject，在最上方菜单栏打开工具。
 + 将 DevProject / Plugins 文件夹复制到自己工程目录下使用。
 
-加载插件后，可通过最上方菜单栏**“CustomUtils -> Animation Curve Modifier”**来打开工具窗口。
+加载插件后，可通过最上方菜单栏 **“CustomUtils -> Animation Curve Modifier”** 来打开工具窗口。
 
 ![](https://cdn.nlark.com/yuque/0/2024/png/1261680/1726050128093-9e878f0a-3717-4594-979b-9f19277700aa.png)
 
