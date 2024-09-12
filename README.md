@@ -25,6 +25,7 @@ Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具
 + [AnimCurveModifierFunctions.cpp](https://github.com/Clairezsh/AnimCurveModifier/blob/main/Plugins/CoreManager/Source/CoreManager/Private/AnimCurveModifierFunctions.cpp) - 处理 AnimSequence 的**核心函数**，包含新增、复制、重命名和删除 AnimSequence 中动画曲线的功能实现。
 
 <h2 id="Hv9Vr">注意事项</h2>
+
 + 请将输入法设置成英文后，再在文本框中进行输入。
 + 若使用过程中工具异常，请重启工具后再进行尝试。
 + 若操作完之后动画数据未更新，可以关闭和重新打开动画序列来刷新更改。
