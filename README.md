@@ -2,9 +2,9 @@
 Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具。该工具支持批量为AnimSequence新增、复制、重命名和删除动画曲线。
 <h2 id="wDfV9">使用演示</h2>
 
-+ 视频链接：https://youtu.be/0l16tB7kUg4?si=bf6Aj0nZ1PGrOSLc
++ [视频链接](https://youtu.be/0l16tB7kUg4?si=bf6Aj0nZ1PGrOSLc)
 
-+ MP4文件：见AnimCurveModifier使用演示.mp4
++ MP4文件：[AnimCurveModifier使用演示.mp4](https://github.com/Clairezsh/AnimCurveModifier/blob/main/AnimCurveModifier%E4%BD%BF%E7%94%A8%E6%BC%94%E7%A4%BA.mp4)
 
 <h2 id="wDfV9">开发环境</h2>
 
@@ -16,12 +16,13 @@ Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具
 
 
 <h2 id="WjGRD">文件结构</h2>
+
 工具的源码位于 [Plugins / CoreManager](https://github.com/Clairezsh/AnimCurveModifier/tree/main/Plugins/CoreManager) 下。
 
-+ CoreManager.cpp - 插件调用的入口文件，用于加载插件，创建菜单栏选项和下拉按钮，打开工具窗口；
-+ CoreManagerCommand.cpp - 定义和注册打开窗口的 UI_Command，用于给菜单栏按钮绑定命令；
-+ SAnimCurveModifierWidget.cpp - 窗口的 Slate 代码文件，以及按钮的基础功能；
-+ AnimCurveModifierFunctions.cpp - 处理 AnimSequence 的核心函数，包含新增、复制、重命名和删除 AnimSequence 中动画曲线的功能实现。
++ [CoreManager.cpp](https://github.com/Clairezsh/AnimCurveModifier/blob/main/Plugins/CoreManager/Source/CoreManager/Private/CoreManager.cpp) - 插件调用的入口文件，用于加载插件，创建菜单栏选项和下拉按钮，打开工具窗口；
++ [CoreManagerCommand.cpp](https://github.com/Clairezsh/AnimCurveModifier/blob/main/Plugins/CoreManager/Source/CoreManager/Private/CoreManagerCommand.cpp) - 定义和注册打开窗口的 UI_Command，用于给菜单栏按钮绑定命令；
++ [SAnimCurveModifierWidget.cpp](https://github.com/Clairezsh/AnimCurveModifier/blob/main/Plugins/CoreManager/Source/CoreManager/Private/SAnimCurveModifierWidget.cpp) - 窗口的 Slate 代码文件，以及按钮的基础功能；
++ [AnimCurveModifierFunctions.cpp](https://github.com/Clairezsh/AnimCurveModifier/blob/main/Plugins/CoreManager/Source/CoreManager/Private/AnimCurveModifierFunctions.cpp) - 处理 AnimSequence 的**核心函数**，包含新增、复制、重命名和删除 AnimSequence 中动画曲线的功能实现。
 
 <h2 id="Hv9Vr">注意事项</h2>
 + 请将输入法设置成英文后，再在文本框中进行输入。
