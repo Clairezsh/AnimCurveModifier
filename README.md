@@ -34,7 +34,7 @@ Animation Curve Modifier是一个用于在UE中快速编辑AnimSequence的工具
 
 + 两种方法加载插件：
 
-  方法1：直接将整个 UE 工程下载到本地，用 UE 打开 DevProject.uproject。中途会出现以下提示，点 Yes 即可，然后稍等片刻。
+  方法1：直接将整个 UE 工程下载到本地，用 UE 5.2 打开 DevProject.uproject。中途会出现以下提示，点 Yes 即可，然后稍等片刻。
 
   ![alt text](./Images/image.png)
 
